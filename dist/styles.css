@@ -11,11 +11,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .Header a {
     text-decoration: none;
     color: #15302C;
+}
+
+.Header-nav {
+    padding-right: 20px;
 }
 
 .Main {
@@ -30,6 +36,7 @@ body {
     grid-gap: 1.5rem;
     grid-row-gap: 1.5em;
     display: grid;
+    padding: 50px;
 }
 
 .Characters-inner {
@@ -74,6 +81,7 @@ body {
     border-radius: 5px;
     margin: 0 0 20px 0;
     display: block;
+    justify-content: center;
     animation-duration: 2s;
     animation-name: fade;
 }
