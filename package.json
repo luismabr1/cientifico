@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "build": "webpack --mode production",
-        "start": "webpack-dev-server --open --mode development"
+        "start": "webpack-dev-server --open --mode development",
+        "deploy": "now ./out --static --no-clipboard --token=$NOW_TOKEN --public"
     },
     "keywords": [
         "javascript"
